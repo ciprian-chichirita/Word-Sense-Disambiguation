@@ -1,2 +1,2 @@
 # Word-Sense-Disambiguation
-Faculty homework. Word sens disambiguation using wordnet and Banerjee and Pedersen algorithm
+Faculty homework. Word sense disambiguation using wordnet and Banerjee and Pedersen algorithm
