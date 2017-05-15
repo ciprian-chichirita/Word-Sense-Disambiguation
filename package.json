@@ -1,0 +1,31 @@
+{
+  "name": "word-sense-disambiguation",
+  "version": "1.0.0",
+  "description": "Faculty homework. Word sense disambiguation using wordnet and Banerjee and Pedersen algorithm",
+  "main": "index.js",
+  "scripts": {
+    "start": "node js/server.js",
+    "web": "python -m SimpleHTTPServer 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ciprian-chichirita/Word-Sense-Disambiguation.git"
+  },
+  "keywords": [
+    "wordnet",
+    "Banerjee",
+    "and",
+    "Pedersen"
+  ],
+  "author": "Chichirita Ciprian, Penariu Patricia, Gavrila Anelusa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ciprian-chichirita/Word-Sense-Disambiguation/issues"
+  },
+  "homepage": "https://github.com/ciprian-chichirita/Word-Sense-Disambiguation#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "wordpos": "^1.1.2"
+  }
+}

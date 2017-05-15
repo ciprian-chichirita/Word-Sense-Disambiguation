@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Word Sense Disambiguation</title>
+	
+	<script src="../js/PorterStemmer1980.js"></script>
+	<script src="../js/client.js"></script>
+	<script type="text/javascript">
+		const URL = 'http://localhost:8086/';
+		const ENDPOINT = 'wordnet.json';
+		var wordSenseDisambiguation = new WordSenseDisambiguation(URL,ENDPOINT);
+	</script>
+</head>
+<body>
+	<div><h1>Faculty homework. Word sense disambiguation using wordnet and Banerjee and Pedersen algorithm</h1></div>
+	<div>Keyword: </div>
+	<div>
+		<input type="text" name="keyword" value="line">
+	</div>
+	<br>
+	<div>Enter text: </div>
+	<div class="menu">
+		<input type="text" name="search-text" value="He drew the line on a sheet of paper" size="100"> <a href="javascript:void(0)" onclick="wordSenseDisambiguation.query(); return false;">OK</a>
+	</div>
+	<br>
+	<div>Output: </div>
+	<div class="output"></div>
+	<div class="textarea-output">
+		<textarea cols="80" rows="10"></textarea>
+	</div>
+	<div>
+		<p>Students</p>
+		<p>Chichirita Ciprian</p>
+		<p>Penariu Patricia</p>
+		<p>Gavrila Anelusa</p>
+	</div>
+</body>
+</html>
